@@ -1,0 +1,14 @@
+server:
+  port: 8191
+spring:
+  application:
+    name: pokemon-shakespeare-description
+pokemon:
+  description:
+    url: https://courses.cs.washington.edu/courses/cse154/webservices/pokedex/pokedex.php?pokemon={name}
+shakespeare:
+  translation:
+    Url: https://api.funtranslations.com/translate/shakespeare.json?text={text}
+springdoc:
+  swagger-ui:
+    path: /api-docs-ui
