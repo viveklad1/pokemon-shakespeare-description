@@ -9,3 +9,6 @@ pokemon:
 shakespeare:
   translation:
     Url: https://api.funtranslations.com/translate/shakespeare.json?text={text}
+springdoc:
+  swagger-ui:
+    path: /api-docs-ui
